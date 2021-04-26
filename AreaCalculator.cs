@@ -12,15 +12,15 @@ namespace CalculatorLibrary
         {
             int number;
             if (side.ToLower() == "one") { number = 1; }
-            if (side.ToLower() == "two") { number = 2; }
-            if (side.ToLower() == "three") { number = 3; }
-            if (side.ToLower() == "four") { number = 4; }
-            if (side.ToLower() == "five") { number = 5; }
-            if (side.ToLower() == "six") { number = 6; }
-            if (side.ToLower() == "seven") { number = 7; }
-            if (side.ToLower() == "eight") { number = 8; }
-            if (side.ToLower() == "nine") { number = 9; }
-            if (side.ToLower() == "ten") { number = 10; }
+            else if (side.ToLower() == "two") { number = 2; }
+            else if (side.ToLower() == "three") { number = 3; }
+            else if (side.ToLower() == "four") { number = 4; }
+            else if (side.ToLower() == "five") { number = 5; }
+            else if (side.ToLower() == "six") { number = 6; }
+            else if (side.ToLower() == "seven") { number = 7; }
+            else if (side.ToLower() == "eight") { number = 8; }
+            else if (side.ToLower() == "nine") { number = 9; }
+            else if (side.ToLower() == "ten") { number = 10; }
             else { number = 0; };
             return number * number;
         }
